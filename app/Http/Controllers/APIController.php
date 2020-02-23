@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Tymon\JWTAuth\JWTAuth;
+use JWTAuth;
 use Illuminate\Http\Request;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use App\Http\Requests\RegistrationFormRequest;
